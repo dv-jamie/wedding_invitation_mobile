@@ -1,0 +1,13 @@
+.background {
+    min-height: 100vh;
+    background: #efefef;
+}
+
+.content_wrap {
+    width: 100%;
+    max-width: 44rem;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #fff;
+}
