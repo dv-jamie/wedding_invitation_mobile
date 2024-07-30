@@ -5,9 +5,8 @@
 
 .content_wrap {
     width: 100%;
-    max-width: 44rem;
+    max-width: 68rem;
     min-height: 100vh;
     margin: 0 auto;
-    padding: 2rem;
     background: #fff;
 }

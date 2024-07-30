@@ -1,10 +1,16 @@
 import React from 'react';
 
+import styles from './Header.module.css';
+
 function Header() {
   return (
     <header>
-      <h1>청첩장</h1>
-      {/* 헤더 내용 추가 */}
+      <ul className={styles.gnb}>
+        <li>상세내용</li>
+        <li>식순</li>
+        <li>갤러리</li>
+        <li>연락처</li>
+      </ul>
     </header>
   );
 }

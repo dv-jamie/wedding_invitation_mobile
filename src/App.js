@@ -12,8 +12,8 @@ function App() {
   return (
     <div className={styles.background}>
       <div className={styles.content_wrap}>
-        <Header />
         <Cover />
+        <Header />
         <Detail />
         <Gallery />
         <Contact />
