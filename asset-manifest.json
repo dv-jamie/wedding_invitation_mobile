@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/wedding_invitation_mobile/static/css/main.5383ffac.css",
+    "main.js": "/wedding_invitation_mobile/static/js/main.883dfbe6.js",
+    "static/media/paris1.jpg": "/wedding_invitation_mobile/static/media/paris1.b59d5ae30cc7cc9df8f0.jpg",
+    "static/media/firenze1.jpg": "/wedding_invitation_mobile/static/media/firenze1.e452e54e0ca1911505b4.jpg",
+    "static/media/rome2.jpg": "/wedding_invitation_mobile/static/media/rome2.9a139e45dc3ccac5db91.jpg",
+    "static/media/self3.jpg": "/wedding_invitation_mobile/static/media/self3.63ea26d7dc63e1bf33c9.jpg",
+    "static/media/self1.jpg": "/wedding_invitation_mobile/static/media/self1.3e7017050485152d8d22.jpg",
+    "static/media/hanbok1.jpg": "/wedding_invitation_mobile/static/media/hanbok1.9ee75d8ae5fa2f2bcdca.jpg",
+    "static/media/hanbok2.jpg": "/wedding_invitation_mobile/static/media/hanbok2.7634a6c30937ae81cfe0.jpg",
+    "static/media/rome1.jpg": "/wedding_invitation_mobile/static/media/rome1.31ce30da99e3875e4d0e.jpg",
+    "static/media/main.jpg": "/wedding_invitation_mobile/static/media/main.3c2edbee1d212be82604.jpg",
+    "static/media/self4.jpg": "/wedding_invitation_mobile/static/media/self4.9746349559fa2e246871.jpg",
+    "static/media/self2.jpg": "/wedding_invitation_mobile/static/media/self2.3d1ffa63b836571beb9c.jpg",
+    "static/media/firenze2.jpg": "/wedding_invitation_mobile/static/media/firenze2.2e5bdd38cc4935fde8fa.jpg",
+    "static/media/self5.jpg": "/wedding_invitation_mobile/static/media/self5.b8c842c9b3cb8dfed12c.jpg",
+    "static/media/calligraphy.svg": "/wedding_invitation_mobile/static/media/calligraphy.bee56c4449bf5c13c0e5561b696f1106.svg",
+    "index.html": "/wedding_invitation_mobile/index.html",
+    "main.5383ffac.css.map": "/wedding_invitation_mobile/static/css/main.5383ffac.css.map",
+    "main.883dfbe6.js.map": "/wedding_invitation_mobile/static/js/main.883dfbe6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5383ffac.css",
+    "static/js/main.883dfbe6.js"
+  ]
+}
