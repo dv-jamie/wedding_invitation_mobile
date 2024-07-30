@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from './components/Header';
 import Cover from './components/Cover';
+import Greetings from './components/Greetings';
 import Detail from './components/Detail';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
@@ -13,7 +13,7 @@ function App() {
     <div className={styles.background}>
       <div className={styles.content_wrap}>
         <Cover />
-        <Header />
+        <Greetings />
         <Detail />
         <Gallery />
         <Contact />

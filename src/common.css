@@ -42,6 +42,7 @@ body * {
 	font-family: 'SeoulHangangC', sans-serif;
 	font-weight: 300;
 	word-break: keep-all;
+	color: #3c3c3c;
 }
 ol, ul, li {
 	list-style: none;

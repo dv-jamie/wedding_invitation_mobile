@@ -1,5 +1,5 @@
 .cover {
-    padding: 4rem 4rem 0 4rem;
+    padding: 8rem 4rem 16rem;
 }
 
 /*
@@ -69,7 +69,7 @@
 }
 .sub_title {
     margin-bottom: 0.4rem;
-    font-size: 1.8rem;
+    font-size: 2.4rem;
     text-align: center;
 }
 .title_wrap span {
