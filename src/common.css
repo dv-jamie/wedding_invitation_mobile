@@ -39,9 +39,9 @@ html {
 body * {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	font-family: 'SeoulHangangC', sans-serif;
+	font-family: 'SeoulHangang', serif;
 	word-break: keep-all;
-	color: #3c3c3c;
+	color: #585858;
 }
 ol, ul, li {
 	list-style: none;
