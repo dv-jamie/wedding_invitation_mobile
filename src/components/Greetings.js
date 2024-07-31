@@ -1,6 +1,7 @@
 import React from 'react';
 
 import camera from '../assets/icons/camera.svg';
+import Contact from './Contact';
 import Order from './Order';
 
 import styles from './Greetings.module.css';
@@ -15,6 +16,7 @@ function Greetings() {
             감사한 마음 간직하며 살겠습니다.
         </p>
 
+        <Contact />
         <Order />
 
         <div className={styles.information}>
