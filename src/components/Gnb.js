@@ -6,10 +6,11 @@ function Gnb() {
   return (
     <nav>
       <ul className={styles.gnb}>
-        <li>상세내용</li>
+        <li>인사말</li>
         <li>식순</li>
-        <li>갤러리</li>
+        <li>오시는 길</li>
         <li>연락처</li>
+        <li>갤러리</li>
       </ul>
     </nav>
   );
