@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wedding_invitation_mobile/static/css/main.5383ffac.css",
-    "main.js": "/wedding_invitation_mobile/static/js/main.883dfbe6.js",
+    "main.css": "/wedding_invitation_mobile/static/css/main.af807741.css",
+    "main.js": "/wedding_invitation_mobile/static/js/main.02768002.js",
     "static/media/paris1.jpg": "/wedding_invitation_mobile/static/media/paris1.b59d5ae30cc7cc9df8f0.jpg",
     "static/media/firenze1.jpg": "/wedding_invitation_mobile/static/media/firenze1.e452e54e0ca1911505b4.jpg",
     "static/media/rome2.jpg": "/wedding_invitation_mobile/static/media/rome2.9a139e45dc3ccac5db91.jpg",
@@ -15,13 +15,16 @@
     "static/media/self2.jpg": "/wedding_invitation_mobile/static/media/self2.3d1ffa63b836571beb9c.jpg",
     "static/media/firenze2.jpg": "/wedding_invitation_mobile/static/media/firenze2.2e5bdd38cc4935fde8fa.jpg",
     "static/media/self5.jpg": "/wedding_invitation_mobile/static/media/self5.b8c842c9b3cb8dfed12c.jpg",
+    "static/media/hall.jpg": "/wedding_invitation_mobile/static/media/hall.4e41171c589c64b3c1e1.jpg",
     "static/media/calligraphy.svg": "/wedding_invitation_mobile/static/media/calligraphy.bee56c4449bf5c13c0e5561b696f1106.svg",
     "index.html": "/wedding_invitation_mobile/index.html",
-    "main.5383ffac.css.map": "/wedding_invitation_mobile/static/css/main.5383ffac.css.map",
-    "main.883dfbe6.js.map": "/wedding_invitation_mobile/static/js/main.883dfbe6.js.map"
+    "static/media/camera.svg": "/wedding_invitation_mobile/static/media/camera.9c402d610a1ede05a9176ee066ea8890.svg",
+    "static/media/link.svg": "/wedding_invitation_mobile/static/media/link.5b1dda9b663fa650e485e2158531068e.svg",
+    "main.af807741.css.map": "/wedding_invitation_mobile/static/css/main.af807741.css.map",
+    "main.02768002.js.map": "/wedding_invitation_mobile/static/js/main.02768002.js.map"
   },
   "entrypoints": [
-    "static/css/main.5383ffac.css",
-    "static/js/main.883dfbe6.js"
+    "static/css/main.af807741.css",
+    "static/js/main.02768002.js"
   ]
 }
