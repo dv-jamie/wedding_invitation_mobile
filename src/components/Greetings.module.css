@@ -1,6 +1,6 @@
 .greetings {
     position: relative;
-    padding: 28rem 0;
+    padding: 28rem 0 14rem;
     text-align: center;
 }
 .greetings::before {
