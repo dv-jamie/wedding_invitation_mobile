@@ -1,0 +1,41 @@
+.order {
+    padding: 12rem 12rem 0rem;
+}
+
+.caption {
+    margin-bottom: 1.8rem;
+}
+.caption span {
+    background: linear-gradient(to right, #ea3937, #6f5e98, #62c377);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 0.4rem;
+}
+
+.table {
+    margin: 0 auto;
+}
+.table li {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6rem;
+    border-top: 1px solid #ddd;
+}
+.table li:first-of-type {
+    border-top: 1px solid #6f5e98;
+}
+.table li:last-of-type {
+    border-bottom: 1px solid #6f5e98;
+}
+.table span:first-of-type {
+    display: inline-block;
+    width: 14rem;
+    text-align: left;
+    font-size: 1.8rem;
+}
+.table span:last-of-type {
+    text-align: right;
+    font-size: 1.6rem;
+}

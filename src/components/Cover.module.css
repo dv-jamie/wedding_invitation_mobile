@@ -78,6 +78,9 @@
     -webkit-text-fill-color: transparent;
 }
 .main_title {
-    font-size: 5.2rem;
     text-align: center;
+}
+.main_title span {
+    font-size: 5.2rem;
+    font-weight: 400;
 }
