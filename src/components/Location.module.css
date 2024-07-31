@@ -1,0 +1,126 @@
+.location {
+    padding: 0 12rem;
+}
+
+.caption {
+    margin-bottom: 1.8rem;
+    text-align: center;
+}
+.caption span {
+    background: linear-gradient(to right, #ea3937, #6f5e98, #62c377);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.4rem;
+}
+
+.image_wrap {
+    width: 100%;
+    overflow: hidden;
+}
+.image_wrap img {
+    width: 100%;
+    min-height: 100%;
+}
+
+.text_wrap {
+    margin-top: 1.8rem;
+    text-align: center;
+    line-height: 1.4;
+}
+.hall_name {
+    font-size: 1.6rem;
+}
+.map_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.2rem auto;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 0.4rem;
+    background: #07C73C;
+    cursor: pointer;
+}
+.map_button img {
+    width: 1.8rem;
+    margin-right: 0.4rem;
+}
+.map_button span {
+    color: #fff;
+}
+
+.traffic_wrap {
+    margin-top: 5.6rem;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 1.4;
+}
+.traffic_wrap .list > span {
+    font-weight: 600;
+}
+.traffic_wrap .list > ul {
+    margin: 0.8rem 0 3.2rem;
+}
+
+.traffic_wrap .subway_1,
+.traffic_wrap .subway_2,
+.traffic_wrap .subway_4 {
+    display: inline-block;
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-right: 0.2rem;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.traffic_wrap .subway_1 {
+    border: 0.1rem solid #385ca9;
+    color: #385ca9;
+}
+.traffic_wrap .subway_2 {
+    border: 0.1rem solid #45b13e;
+    color: #45b13e;
+    margin-right: 0.4rem;
+}
+.traffic_wrap .subway_4 {
+    border: 0.1rem solid #008bcf;
+    color: #008bcf;
+    margin-right: 0.4rem;
+}
+
+.traffic_wrap .bus_stop_name {
+    display: inline-block;
+    margin-bottom: 0.2rem;
+}
+.traffic_wrap .bus_first_row {
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+}
+.traffic_wrap .bus_green,
+.traffic_wrap .bus_red {
+    margin-right: 0.4rem;
+    font-weight: 600;
+}
+.traffic_wrap .bus_green{
+    color: #45b13e;
+}
+.traffic_wrap .bus_red{
+    color: #c9171e;
+}
+
+.traffic_wrap .parking_icon {
+    display: inline-block;
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-right: 0.4rem;
+    border-radius: 50%;
+    background: #3c3c3c;
+    color: #fff;
+    font-weight: 600;
+}
+.traffic_wrap .parking_info span {
+    color: #45b13e;
+}

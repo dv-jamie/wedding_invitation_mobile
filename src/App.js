@@ -1,7 +1,7 @@
 import React from 'react';
 import Cover from './components/Cover';
 import Greetings from './components/Greetings';
-import Detail from './components/Detail';
+import Location from './components/Location';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 
@@ -14,7 +14,7 @@ function App() {
       <div className={styles.content_wrap}>
         <Cover />
         <Greetings />
-        <Detail />
+        <Location />
         <Gallery />
         <Contact />
       </div>
