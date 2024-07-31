@@ -43,7 +43,7 @@ function Cover() {
       </div>
 
       <div className={styles.title_wrap}>
-        <p className={styles.sub_title}><span>24년 11월 30일, 신랑 현웅 & 신부 정민</span></p>
+        <p className={styles.sub_title}><span>24년 11월 30일 12:30pm, 현웅 & 정민</span></p>
         <h1 className={styles.main_title}><span>결혼식에 초대합니다</span></h1>
       </div>
 
