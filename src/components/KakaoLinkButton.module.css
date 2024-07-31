@@ -1,0 +1,8 @@
+.kakao_link_button {
+    border: none;
+    background: none;
+    cursor: pointer;;
+}
+.kakao_link_button img {
+    height: 2.2rem;
+}

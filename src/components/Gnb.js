@@ -1,5 +1,7 @@
 import React from 'react';
 
+import KakaoLinkButton from './KakaoLinkButton';
+
 import styles from './Gnb.module.css';
 
 function Gnb({ scrollToSection }) {
@@ -10,6 +12,7 @@ function Gnb({ scrollToSection }) {
         <li onClick={() => scrollToSection('order')}>식순</li>
         <li onClick={() => scrollToSection('location')}>오시는 길</li>
         <li onClick={() => scrollToSection('gallery')}>사진첩</li>
+        <li><KakaoLinkButton /></li>
       </ul>
     </nav>
   );

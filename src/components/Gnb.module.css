@@ -7,6 +7,7 @@
 .gnb {
     display: flex;
     justify-content: center;
+    align-items: center;
     background: linear-gradient(to right, #ea3937, #6f5e98, #62c377);
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -15,4 +16,9 @@
     padding: 1.2rem;
     font-size: 1.5rem;
     cursor: pointer;
+}
+.gnb li:last-of-type {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 0.2rem;
 }
