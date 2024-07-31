@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wedding_invitation_mobile/static/css/main.651196b9.css",
-    "main.js": "/wedding_invitation_mobile/static/js/main.d0fad4bb.js",
+    "main.css": "/wedding_invitation_mobile/static/css/main.aa635bf6.css",
+    "main.js": "/wedding_invitation_mobile/static/js/main.59c2e6e2.js",
     "static/media/main.jpg": "/wedding_invitation_mobile/static/media/main.3c2edbee1d212be82604.jpg",
     "static/media/hall.jpg": "/wedding_invitation_mobile/static/media/hall.4e41171c589c64b3c1e1.jpg",
     "static/media/rome2.jpg": "/wedding_invitation_mobile/static/media/rome2.7d86d0f53844a22a85bc.jpg",
@@ -20,11 +20,11 @@
     "index.html": "/wedding_invitation_mobile/index.html",
     "static/media/camera.svg": "/wedding_invitation_mobile/static/media/camera.9c402d610a1ede05a9176ee066ea8890.svg",
     "static/media/mobile.svg": "/wedding_invitation_mobile/static/media/mobile.1a5f2f282517be4c6e0a2785915e9f3e.svg",
-    "main.651196b9.css.map": "/wedding_invitation_mobile/static/css/main.651196b9.css.map",
-    "main.d0fad4bb.js.map": "/wedding_invitation_mobile/static/js/main.d0fad4bb.js.map"
+    "main.aa635bf6.css.map": "/wedding_invitation_mobile/static/css/main.aa635bf6.css.map",
+    "main.59c2e6e2.js.map": "/wedding_invitation_mobile/static/js/main.59c2e6e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.651196b9.css",
-    "static/js/main.d0fad4bb.js"
+    "static/css/main.aa635bf6.css",
+    "static/js/main.59c2e6e2.js"
   ]
 }
