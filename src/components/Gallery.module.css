@@ -1,0 +1,17 @@
+.gallery {
+    padding: 12rem 0;
+    text-align: center;
+}
+
+.caption {
+    margin-bottom: 1.8rem;
+    text-align: center;
+}
+.caption span {
+    background: linear-gradient(to right, #ea3937, #6f5e98, #62c377);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.4rem;
+}

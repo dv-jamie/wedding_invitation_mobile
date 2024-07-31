@@ -3,7 +3,6 @@ import Cover from './components/Cover';
 import Greetings from './components/Greetings';
 import Location from './components/Location';
 import Gallery from './components/Gallery';
-import Contact from './components/Contact';
 
 import './common.css';
 import styles from './App.module.css';
@@ -16,7 +15,6 @@ function App() {
         <Greetings />
         <Location />
         <Gallery />
-        <Contact />
       </div>
     </div>
   );

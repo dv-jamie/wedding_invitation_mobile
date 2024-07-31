@@ -1,11 +1,14 @@
 import React from 'react';
 
+import styles from './Gallery.module.css';
+
 function Gallery() {
   return (
-    <section className="gallery">
-      <div className="gallery-content">
-        <h2>갤러리</h2>
-        {/* 갤러리 이미지 추가 */}
+    <section className={styles.gallery}>
+      <h3 className={styles.caption}><span>GALLERY</span></h3>
+      
+      <div className={styles.image_wrap}>
+
       </div>
     </section>
   );
