@@ -1,12 +1,12 @@
 .greetings {
     position: relative;
-    padding: 14rem 0;
+    padding: 28rem 0;
     text-align: center;
 }
 .greetings::before {
     content: "";
     position: absolute;
-    top: -2rem;
+    top: 10rem;
     left: 50%;
     transform: translateX(-50%);
     display: inline-block;

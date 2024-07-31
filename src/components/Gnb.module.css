@@ -1,3 +1,9 @@
+.gnb_wrap {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 1000;
+}
 .gnb {
     display: flex;
     justify-content: center;
@@ -6,7 +12,7 @@
     -webkit-text-fill-color: transparent;
 }
 .gnb li {
-    padding: 0 1.2rem;
-    font-size: 1.6rem;
+    padding: 1.2rem;
+    font-size: 1.5rem;
     cursor: pointer;
 }

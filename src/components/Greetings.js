@@ -17,7 +17,10 @@ function Greetings() {
         </p>
 
         <Contact />
-        <Order />
+
+        <div id="order">
+          <Order />
+        </div>
 
         <div className={styles.information}>
             <img src={camera} alt="카메라 아이콘" />

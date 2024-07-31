@@ -2,15 +2,14 @@ import React from 'react';
 
 import styles from './Gnb.module.css';
 
-function Gnb() {
+function Gnb({ scrollToSection }) {
   return (
-    <nav>
+    <nav className={styles.gnb_wrap}>
       <ul className={styles.gnb}>
-        <li>인사말</li>
-        <li>식순</li>
-        <li>오시는 길</li>
-        <li>연락처</li>
-        <li>갤러리</li>
+        <li onClick={() => scrollToSection('greeting')}>연락처</li>
+        <li onClick={() => scrollToSection('order')}>식순</li>
+        <li onClick={() => scrollToSection('location')}>오시는 길</li>
+        <li onClick={() => scrollToSection('gallery')}>사진첩</li>
       </ul>
     </nav>
   );
