@@ -69,7 +69,7 @@
 }
 .sub_title {
     margin-bottom: 0.4rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
 }
 .sub_title span,
@@ -82,5 +82,5 @@
     text-align: center;
 }
 .main_title span {
-    font-size: 4rem;
+    font-size: 3.2rem;
 }

@@ -63,8 +63,9 @@ function Location() {
                 </div>
                 <p>
                   <span className={styles.bus_red}>직행</span>
-                  1000, 1200, 1900, 32101, 4101, 4103, 4108, <br />
-                  500B, 5005, 5500-2, 8800, 9000, 9007, 9200, 9709
+                  1000, 1200, 1900, 32101, 4101, 4103, <br />
+                  <span className={styles.bus_transparent}>직행</span>
+                  500B, 5005, 5500-2, 8800, 9000
                 </p>
               </li>
             </ul>
@@ -75,7 +76,7 @@ function Location() {
             <ul>
               <li className={styles.parking_info}>
                 퍼시픽타워 지하주차장 - 3시간 무료<br />
-                (로비에 <span>셀프 주차등록</span> 공간이 마련되어 있습니다)
+                (로비에서 <span>셀프 주차등록</span> 가능)
               </li>
             </ul>
           </li>

@@ -85,7 +85,8 @@
     gap: 1.6rem;
 }
 .traffic_wrap .bus_green,
-.traffic_wrap .bus_red {
+.traffic_wrap .bus_red,
+.traffic_wrap .bus_transparent {
     margin-right: 0.4rem;
     font-weight: 600;
 }
@@ -94,6 +95,10 @@
 }
 .traffic_wrap .bus_red{
     color: #c9171e;
+}
+.traffic_wrap .bus_transparent{
+    color: #fff;
+    opacity: 0;
 }
 
 .traffic_wrap .parking_info span {

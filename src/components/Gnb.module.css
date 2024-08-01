@@ -13,12 +13,11 @@
     -webkit-text-fill-color: transparent;
 }
 .gnb li {
-    padding: 1.2rem;
+    padding: 1rem 1rem 0;
     font-size: 1.5rem;
     cursor: pointer;
 }
 .gnb li:last-of-type {
     display: inline-flex;
     align-items: center;
-    margin-left: 0.2rem;
 }
