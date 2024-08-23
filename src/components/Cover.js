@@ -42,8 +42,12 @@ function Cover() {
       </div>
 
       <div className={styles.title_wrap}>
-        <p className={styles.sub_title}><span>24년 11월 30일 12:30pm</span></p>
         <h1 className={styles.main_title}><span>결혼식에 초대합니다</span></h1>
+        <p className={styles.sub_title}>
+          <span>24년 11월 30일 오후 12:30</span>
+          <br />
+          <span>오펠리스 웨딩컨벤션</span>
+        </p>
       </div>
     </div>
   );

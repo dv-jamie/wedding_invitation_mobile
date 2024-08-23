@@ -36,7 +36,8 @@
     border-bottom: none;
 }
 .traffic_wrap .list > ul span,
-.traffic_wrap .list > ul li {
+.traffic_wrap .list > ul li,
+.traffic_wrap .list > ul p {
     font-family: 'pretendard', sans-serif;
     font-size: 1.5rem;
 }
@@ -46,6 +47,9 @@
 }
 .traffic_wrap .list > ul {
     margin: 1.2rem 0 2.4rem;
+}
+.traffic_wrap .list .impact {
+    font-weight: bold;
 }
 
 .traffic_wrap .subway_1,

@@ -25,7 +25,7 @@ function Greetings() {
         <div className={styles.information}>
             <img src={camera} alt="카메라 아이콘" />
             <p>
-                결혼식 당일 포토부스가 있습니다.<br />
+                결혼식 당일 <span>포토부스</span>가 있습니다.<br />
                 사진과 함께 따뜻한 말씀 남겨주시면<br />
                 소중히 간직하겠습니다.
             </p>

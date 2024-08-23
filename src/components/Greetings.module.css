@@ -26,9 +26,13 @@
 .information img {
     width: 1.4rem;
 }
-.information p {
+.information p,
+.information span {
     margin-top: 1.2rem;
     font-family: 'pretendard', sans-serif;
     font-size: 1.4rem;
     line-height: 2;
+}
+.information span {
+    font-weight: bold;
 }

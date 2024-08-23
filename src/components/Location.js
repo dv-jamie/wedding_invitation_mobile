@@ -25,7 +25,7 @@ function Location() {
             <ul>
               <li>
                 서울 중구 세종대로9길 41, 퍼시픽타워<br />
-                20층 오펠리스 웨딩컨벤션
+                20층 <span className={styles.impact}>오펠리스 웨딩컨벤션</span>
               </li>
             </ul>
           </li>
