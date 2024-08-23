@@ -2,6 +2,7 @@ import React from 'react';
 import Cover from './components/Cover';
 import Greetings from './components/Greetings';
 import Location from './components/Location';
+import Account from './components/Account';
 import Gallery from './components/Gallery';
 
 import './common.css';
@@ -32,6 +33,10 @@ function App() {
         
         <div id="gallery">
           <Gallery />
+        </div>
+        
+        <div id="account">
+          <Account />
         </div>
       </div>
     </div>

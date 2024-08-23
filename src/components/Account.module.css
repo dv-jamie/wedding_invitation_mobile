@@ -1,0 +1,26 @@
+.account {
+    text-align: center;
+    margin: 7rem 2.4rem;
+    padding: 2.4rem 3.2rem;
+    border: 0.1rem solid #dee2e6;
+    border-radius: 0.4rem;
+    background: #f6f6f6;
+}
+.account img {
+    width: 1.4rem;
+}
+
+
+
+
+
+.account p,
+.account span {
+    margin-top: 1.2rem;
+    font-family: 'pretendard', sans-serif;
+    font-size: 1.4rem;
+    line-height: 2;
+}
+.account span {
+    font-weight: 600;
+}
