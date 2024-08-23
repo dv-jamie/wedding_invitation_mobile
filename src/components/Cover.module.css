@@ -78,10 +78,14 @@
 }
 .main_title span {
     font-size: 3.4rem;
+    letter-spacing: -0.2rem;
 }
 .sub_title {
     margin-top: 1.2rem;
     font-size: 2rem;
     text-align: center;
     line-height: 2.8rem;;
+}
+.sub_title span{
+    letter-spacing: -0.1rem;
 }
