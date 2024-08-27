@@ -4,6 +4,7 @@ import Greetings from './components/Greetings';
 import Location from './components/Location';
 import Account from './components/Account';
 import Gallery from './components/Gallery';
+import Copyright from './components/Copyright';
 
 import './common.css';
 import styles from './App.module.css';
@@ -37,6 +38,10 @@ function App() {
         
         <div id="account">
           <Account />
+        </div>
+        
+        <div id="copyright">
+          <Copyright />
         </div>
       </div>
     </div>
