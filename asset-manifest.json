@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wedding_invitation_mobile/static/css/main.c8d7372f.css",
-    "main.js": "/wedding_invitation_mobile/static/js/main.11a8de9b.js",
+    "main.css": "/wedding_invitation_mobile/static/css/main.6e449de0.css",
+    "main.js": "/wedding_invitation_mobile/static/js/main.530f44fd.js",
     "static/media/main.jpg": "/wedding_invitation_mobile/static/media/main.3c2edbee1d212be82604.jpg",
     "static/media/hall.jpg": "/wedding_invitation_mobile/static/media/hall.4e41171c589c64b3c1e1.jpg",
     "static/media/rome2.jpg": "/wedding_invitation_mobile/static/media/rome2.7d86d0f53844a22a85bc.jpg",
@@ -18,14 +18,18 @@
     "static/media/self2.jpg": "/wedding_invitation_mobile/static/media/self2.cfbe31a72514da5f070e.jpg",
     "static/media/calligraphy.svg": "/wedding_invitation_mobile/static/media/calligraphy.bee56c4449bf5c13c0e5561b696f1106.svg",
     "index.html": "/wedding_invitation_mobile/index.html",
-    "static/media/camera.svg": "/wedding_invitation_mobile/static/media/camera.9c402d610a1ede05a9176ee066ea8890.svg",
+    "static/media/camera.svg": "/wedding_invitation_mobile/static/media/camera.3105e88c55e7b981b4ae987eda1d163a.svg",
+    "static/media/mail.svg": "/wedding_invitation_mobile/static/media/mail.6dee375fd360c444e35d160cfc12903a.svg",
+    "static/media/copy.svg": "/wedding_invitation_mobile/static/media/copy.3c8e81fd1bee9c20ee9c54c52c53ea3c.svg",
     "static/media/mobile.svg": "/wedding_invitation_mobile/static/media/mobile.1a5f2f282517be4c6e0a2785915e9f3e.svg",
     "static/media/kakao.svg": "/wedding_invitation_mobile/static/media/kakao.f4107da3d0c2163615bf7880ab604def.svg",
-    "main.c8d7372f.css.map": "/wedding_invitation_mobile/static/css/main.c8d7372f.css.map",
-    "main.11a8de9b.js.map": "/wedding_invitation_mobile/static/js/main.11a8de9b.js.map"
+    "static/media/prev_arrow.svg": "/wedding_invitation_mobile/static/media/prev_arrow.b7aef10710604ddd7efd9a31e3c81044.svg",
+    "static/media/next_arrow.svg": "/wedding_invitation_mobile/static/media/next_arrow.8f511043f60a58bacaaf45ad058b7728.svg",
+    "main.6e449de0.css.map": "/wedding_invitation_mobile/static/css/main.6e449de0.css.map",
+    "main.530f44fd.js.map": "/wedding_invitation_mobile/static/js/main.530f44fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8d7372f.css",
-    "static/js/main.11a8de9b.js"
+    "static/css/main.6e449de0.css",
+    "static/js/main.530f44fd.js"
   ]
 }
