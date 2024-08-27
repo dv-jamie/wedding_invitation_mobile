@@ -47,6 +47,7 @@ function Account() {
                   <img src={copy} alt="복사 아이콘" className={copiedIndex === '가가은행 0000-0000-0000' ? styles.copied : ''} />
                 </span>
               </li>
+              
               <li>
                 <span>전인숙</span>
                 <span>가가은행 0000-0000-0000</span>
@@ -54,6 +55,7 @@ function Account() {
                   <img src={copy} alt="복사 아이콘" className={copiedIndex === '가가은행 0000-0000-0000' ? styles.copied : ''} />
                 </span>
               </li>
+
               <li>
                 <span>장현웅</span>
                 <span>KB국민 824202-00-034559</span>
@@ -74,6 +76,7 @@ function Account() {
                   <img src={copy} alt="복사 아이콘" className={copiedIndex === '씨티 197-07423-265-01' ? styles.copied : ''} />
                 </span>
               </li>
+
               <li>
                 <span>박선연</span>
                 <span>우리 450-024847-12-001</span>
@@ -81,6 +84,7 @@ function Account() {
                   <img src={copy} alt="복사 아이콘" className={copiedIndex === '우리 450-024847-12-001' ? styles.copied : ''} />
                 </span>
               </li>
+
               <li>
                 <span>서정민</span>
                 <span>우리 1002-647-189621</span>
