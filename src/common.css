@@ -42,6 +42,8 @@ body * {
 	font-family: 'SeoulHangang', serif;
 	word-break: keep-all;
 	color: #585858;
+	-webkit-user-drag: none;
+    user-select: none;
 }
 ol, ul, li {
 	list-style: none;
