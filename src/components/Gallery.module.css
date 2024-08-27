@@ -15,13 +15,6 @@
     letter-spacing: 0.4rem;
 }
 
-.information {
-    margin-bottom: 1.8rem;
-    font-family: 'pretendard', sans-serif;
-    font-size: 1.4rem;
-    line-height: 1.6;
-}
-
 .image_wrap {
     display: flex;
     flex-direction: column;
@@ -54,12 +47,9 @@
 
 .image_slide {
     display: flex;
-    gap: 2.4rem;
-    padding: 0 2.4rem;
     max-height: 8rem;
     overflow: hidden;
     scroll-snap-type: x mandatory;
-    scroll-padding: 0 2.4rem;
     transition: max-height 0.5s ease;
 }
 .image_slide.active {
@@ -97,11 +87,13 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 0 2.4rem;
+    padding: 0 0.4rem;
 }
 .slide_button_wrap button {
+    outline: none;
     border: none;
     background: none;
+    opacity: 0.6;
     cursor: pointer;
 }
 .slide_button_wrap button:disabled img {
