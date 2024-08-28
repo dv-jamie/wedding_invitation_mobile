@@ -12,9 +12,9 @@ function Contact() {
         <div className={styles.contact}>
             <ul>
                 <li>
-                    <span onClick={() => onNameClick("010-0000-0000")}>장상권</span>
+                    <span onClick={() => onNameClick("010-5208-3163")}>장상권</span>
                     ㆍ
-                    <span onClick={() => onNameClick("010-0000-0000")}>전인숙</span>
+                    <span onClick={() => onNameClick("010-7407-3164")}>전인숙</span>
                     의 장남
                     <span onClick={() => onNameClick("010-9284-3165")}>장현웅</span>
                 </li>
