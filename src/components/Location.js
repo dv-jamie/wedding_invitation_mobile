@@ -1,6 +1,7 @@
 import React from 'react';
 
 import hall from '../assets/images/hall.jpg';
+import buffet from '../assets/images/buffet.jpg';
 import naverMap from '../assets/icons/naver_map.png';
 
 import styles from './Location.module.css';
@@ -16,6 +17,10 @@ function Location() {
 
       <div className={styles.image_wrap}>
         <img src={hall} alt="홀 이미지" />
+      </div>
+
+      <div className={styles.image_wrap}>
+        <img src={buffet} alt="뷔페 이미지" />
       </div>
 
       <div className={styles.traffic_wrap}>
