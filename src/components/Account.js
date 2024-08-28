@@ -42,17 +42,17 @@ function Account() {
             <ul className={styles.account_wrap}>
               <li>
                 <span>장상권</span>
-                <span>가가은행 0000-0000-0000</span>
-                <span onClick={() => handleCopyClick('가가은행 0000-0000-0000')}>
-                  <img src={copy} alt="복사 아이콘" className={copiedIndex === '가가은행 0000-0000-0000' ? styles.copied : ''} />
+                <span>KB국민 016-21-0492-783</span>
+                <span onClick={() => handleCopyClick('KB국민 016-21-0492-783')}>
+                  <img src={copy} alt="복사 아이콘" className={copiedIndex === 'KB국민 016-21-0492-783' ? styles.copied : ''} />
                 </span>
               </li>
               
               <li>
                 <span>전인숙</span>
-                <span>가가은행 0000-0000-0000</span>
-                <span onClick={() => handleCopyClick('가가은행 0000-0000-0000')}>
-                  <img src={copy} alt="복사 아이콘" className={copiedIndex === '가가은행 0000-0000-0000' ? styles.copied : ''} />
+                <span>신한 110-183-961904</span>
+                <span onClick={() => handleCopyClick('신한 110-183-961904')}>
+                  <img src={copy} alt="복사 아이콘" className={copiedIndex === '신한 110-183-961904' ? styles.copied : ''} />
                 </span>
               </li>
 
@@ -71,9 +71,9 @@ function Account() {
             <ul className={styles.account_wrap}>
               <li>
                 <span>서병열</span>
-                <span>씨티 197-07423-265-01</span>
-                <span onClick={() => handleCopyClick('씨티 197-07423-265-01')}>
-                  <img src={copy} alt="복사 아이콘" className={copiedIndex === '씨티 197-07423-265-01' ? styles.copied : ''} />
+                <span>신한 346-13-008626</span>
+                <span onClick={() => handleCopyClick('신한 346-13-008626')}>
+                  <img src={copy} alt="복사 아이콘" className={copiedIndex === '신한 346-13-008626' ? styles.copied : ''} />
                 </span>
               </li>
 
