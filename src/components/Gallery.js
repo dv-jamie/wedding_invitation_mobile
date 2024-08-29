@@ -1,10 +1,10 @@
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
 import {
-  paris1, paris2, paris3, paris4, paris5, paris6, paris7, paris8, paris9, paris10,
-  rome1, rome2, rome3, rome4, rome5, rome6, rome7, rome8, rome9, rome10, rome11, rome12, rome13, rome14, rome15, rome16, rome17, rome18, rome19, rome20, rome21, rome22, rome23,
+  paris1, paris2, paris4, paris5, paris6, paris7, paris8, paris9, paris10,
+  rome2, rome5, rome6, rome10, rome12, rome13, rome14, rome15, rome17, rome19, rome22,
   year2023_1, year2023_2, year2023_3, year2023_4, year2023_5, year2023_6, year2023_7, year2023_8, year2023_9,
-  year2022_1, year2022_2, year2022_3, year2022_4, year2022_5, year2022_6, year2022_7, year2022_8, year2022_9, year2022_10, year2022_11,
+  year2022_2, year2022_3, year2022_4, year2022_5, year2022_6, year2022_7, year2022_8, year2022_9, year2022_10, year2022_11,
   gyeongju_1, gyeongju_2, gyeongju_3, gyeongju_4, gyeongju_5, gyeongju_6, gyeongju_8, gyeongju_9, gyeongju_10, gyeongju_11, gyeongju_12, gyeongju_13, gyeongju_14, gyeongju_15, gyeongju_16, gyeongju_17, gyeongju_18,
   year2021_1, year2021_2, year2021_3, year2021_4, year2021_5, year2021_6, year2021_7, year2021_8, year2021_9,
   year2020_1, year2020_2, year2020_3, year2020_4, year2020_5, year2020_6, year2020_7, year2020_8
@@ -13,17 +13,18 @@ import {
 
 import prevArrow from '../assets/icons/prev_arrow.svg';
 import nextArrow from '../assets/icons/next_arrow.svg';
-import img1 from '../assets/images/self3.jpg';
-import img2 from '../assets/images/self1.jpg';
-import img3 from '../assets/images/self2.jpg';
-import img4 from '../assets/images/self4.jpg';
 
 import styles from './Gallery.module.css';
 
 function Gallery() {
   const [activeSlideIndex, setActiveSlideIndex] = useState(0);
   const [activeImageIndex, setActiveImageIndex] = useState(0);
+  const slideContainerRefs = useRef([]);
   const slideRefs = useRef([]);
+
+  useEffect(() => {
+    slideContainerRefs.current[0].classList.add('active')
+  }, [])
 
   const onSlideClick = (e, index) => {
     const clickedSlideContainer = e.currentTarget
@@ -66,6 +67,7 @@ function Gallery() {
           <div
             key={index}
             className={styles.slide_container}
+            ref={(el) => (slideContainerRefs.current[index] = el)}
             onClick={(e) => onSlideClick(e, index)}
           >
             <div className={`${styles.slide_title} ${activeSlideIndex === index ? styles.hidden : ''}`}>
