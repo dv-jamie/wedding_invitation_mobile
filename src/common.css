@@ -65,3 +65,7 @@ input {
     border: 0.1rem solid var(--gray-300);
     background: var(--white);
 }
+
+.active::before {
+    opacity: 0;
+}

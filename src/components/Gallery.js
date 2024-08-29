@@ -3,7 +3,13 @@ import React, { useRef, useState } from 'react';
 import {
   paris1, paris2, paris3, paris4, paris5, paris6, paris7, paris8, paris9, paris10,
   rome1, rome2, rome3, rome4, rome5, rome6, rome7, rome8, rome9, rome10, rome11, rome12, rome13, rome14, rome15, rome16, rome17, rome18, rome19, rome20, rome21, rome22, rome23,
+  year2023_1, year2023_2, year2023_3, year2023_4, year2023_5, year2023_6, year2023_7, year2023_8, year2023_9,
+  year2022_1, year2022_2, year2022_3, year2022_4, year2022_5, year2022_6, year2022_7, year2022_8, year2022_9, year2022_10, year2022_11,
+  gyeongju_1, gyeongju_2, gyeongju_3, gyeongju_4, gyeongju_5, gyeongju_6, gyeongju_8, gyeongju_9, gyeongju_10, gyeongju_11, gyeongju_12, gyeongju_13, gyeongju_14, gyeongju_15, gyeongju_16, gyeongju_17, gyeongju_18,
+  year2021_1, year2021_2, year2021_3, year2021_4, year2021_5, year2021_6, year2021_7, year2021_8, year2021_9,
+  year2020_1, year2020_2, year2020_3, year2020_4, year2020_5, year2020_6, year2020_7, year2020_8
 } from '../assets/images/gallery';
+
 
 import prevArrow from '../assets/icons/prev_arrow.svg';
 import nextArrow from '../assets/icons/next_arrow.svg';
@@ -19,9 +25,18 @@ function Gallery() {
   const [activeImageIndex, setActiveImageIndex] = useState(0);
   const slideRefs = useRef([]);
 
-  const onSlideClick = (index) => {
-    slideRefs.current[activeSlideIndex].scrollLeft = 0;
-    setActiveSlideIndex(index);
+  const onSlideClick = (e, index) => {
+    const clickedSlideContainer = e.currentTarget
+
+    if (index === activeSlideIndex) {
+      setActiveSlideIndex(null);
+      clickedSlideContainer.classList.remove('active')
+    } else {
+      clickedSlideContainer.classList.add('active')
+      setActiveSlideIndex(index);
+    }
+
+    slideRefs.current[activeSlideIndex]?.scrollTo(0, 0);
     setActiveImageIndex(0);
   };
   
@@ -51,7 +66,7 @@ function Gallery() {
           <div
             key={index}
             className={styles.slide_container}
-            onClick={() => onSlideClick(index)}
+            onClick={(e) => onSlideClick(e, index)}
           >
             <div className={`${styles.slide_title} ${activeSlideIndex === index ? styles.hidden : ''}`}>
               {slide.title}
@@ -103,56 +118,10 @@ function Gallery() {
 
 const imageSlides = [
   {
-    title: "2020 Beige",
+    title: "2024 Paris",
     images: [
-      { src: img1, alt: "이미지1" },
-      { src: img2, alt: "이미지2" },
-      { src: img3, alt: "이미지3" },
-      { src: img4, alt: "이미지4" },
-    ],
-  },
-  {
-    title: "2021 Red",
-    images: [
-      { src: img2, alt: "이미지1" },
-      { src: img3, alt: "이미지2" },
-      { src: img4, alt: "이미지3" },
-      { src: img1, alt: "이미지4" },
-    ],
-  },
-  {
-    title: "2022 Gyeongju",
-    images: [
-      { src: img3, alt: "이미지1" },
-      { src: img4, alt: "이미지2" },
-      { src: img2, alt: "이미지3" },
-      { src: img1, alt: "이미지4" },
-    ],
-  },
-  {
-    title: "2022 Black",
-    images: [
-      { src: img4, alt: "이미지1" },
-      { src: img3, alt: "이미지2" },
-      { src: img2, alt: "이미지3" },
-      { src: img1, alt: "이미지4" },
-    ],
-  },
-  {
-    title: "2023 Blue",
-    images: [
-      { src: img2, alt: "이미지1" },
-      { src: img3, alt: "이미지2" },
-      { src: img4, alt: "이미지3" },
-      { src: img1, alt: "이미지4" },
-    ],
-  },
-  {
-    title: "2024 Europe",
-    images: [
-      // { src: paris1, alt: "이미지1" },
-      // { src: paris3, alt: "이미지3" },
       { src: paris2, alt: "이미지2" },
+      { src: paris1, alt: "이미지2" },
       { src: paris4, alt: "이미지4" },
       { src: paris5, alt: "이미지5" },
       { src: paris6, alt: "이미지6" },
@@ -160,30 +129,100 @@ const imageSlides = [
       { src: paris8, alt: "이미지8" },
       { src: paris9, alt: "이미지9" },
       { src: paris10, alt: "이미지10" },
-      { src: rome1, alt: "이미지1" },
+    ],
+  },
+  {
+    title: "2024 Rome",
+    images: [
+      { src: rome13, alt: "이미지13" },
       { src: rome2, alt: "이미지2" },
-      // { src: rome3, alt: "이미지3" },
-      // { src: rome4, alt: "이미지4" },
       { src: rome5, alt: "이미지5" },
       { src: rome6, alt: "이미지6" },
-      // { src: rome7, alt: "이미지7" },
-      // { src: rome8, alt: "이미지8" },
-      // { src: rome9, alt: "이미지9" },
       { src: rome10, alt: "이미지10" },
-      // { src: rome11, alt: "이미지11" },
       { src: rome12, alt: "이미지12" },
-      { src: rome13, alt: "이미지13" },
       { src: rome14, alt: "이미지14" },
       { src: rome15, alt: "이미지15" },
-      // { src: rome16, alt: "이미지16" },
       { src: rome17, alt: "이미지17" },
-      // { src: rome18, alt: "이미지18" },
       { src: rome19, alt: "이미지19" },
-      // { src: rome20, alt: "이미지20" },
-      // { src: rome21, alt: "이미지21" },
       { src: rome22, alt: "이미지22" },
-      // { src: rome23, alt: "이미지23" }
-    
+    ],
+  },
+  {
+    title: "2023 White & Blue",
+    images: [
+      { src: year2023_4, alt: "이미지4" },
+      { src: year2023_3, alt: "이미지3" },
+      { src: year2023_2, alt: "이미지2" },
+      { src: year2023_5, alt: "이미지5" },
+      { src: year2023_6, alt: "이미지6" },
+      { src: year2023_7, alt: "이미지7" },
+      { src: year2023_8, alt: "이미지8" },
+      { src: year2023_9, alt: "이미지9" },
+      { src: year2023_1, alt: "이미지1" },
+    ],
+  },
+  {
+    title: "2022 Black",
+    images: [
+      { src: year2022_2, alt: "이미지2" },
+      { src: year2022_3, alt: "이미지3" },
+      { src: year2022_4, alt: "이미지4" },
+      { src: year2022_5, alt: "이미지5" },
+      { src: year2022_6, alt: "이미지6" },
+      { src: year2022_7, alt: "이미지7" },
+      { src: year2022_8, alt: "이미지8" },
+      { src: year2022_9, alt: "이미지9" },
+      { src: year2022_10, alt: "이미지10" },
+      { src: year2022_11, alt: "이미지11" }
+    ],
+  },
+  {
+    title: "2022 Gyeongju",
+    images: [
+      { src: gyeongju_1, alt: "이미지1" },
+      { src: gyeongju_2, alt: "이미지2" },
+      { src: gyeongju_3, alt: "이미지3" },
+      { src: gyeongju_4, alt: "이미지4" },
+      { src: gyeongju_5, alt: "이미지5" },
+      { src: gyeongju_6, alt: "이미지6" },
+      { src: gyeongju_8, alt: "이미지8" },
+      { src: gyeongju_9, alt: "이미지9" },
+      { src: gyeongju_10, alt: "이미지10" },
+      { src: gyeongju_11, alt: "이미지11" },
+      { src: gyeongju_12, alt: "이미지12" },
+      { src: gyeongju_13, alt: "이미지13" },
+      { src: gyeongju_14, alt: "이미지14" },
+      { src: gyeongju_15, alt: "이미지15" },
+      { src: gyeongju_16, alt: "이미지16" },
+      { src: gyeongju_17, alt: "이미지17" },
+      { src: gyeongju_18, alt: "이미지18" },
+    ],
+  },
+  {
+    title: "2021 Red",
+    images: [
+      { src: year2021_5, alt: "이미지5" },
+      { src: year2021_1, alt: "이미지1" },
+      { src: year2021_2, alt: "이미지2" },
+      { src: year2021_3, alt: "이미지3" },
+      { src: year2021_4, alt: "이미지4" },
+      { src: year2021_6, alt: "이미지6" },
+      { src: year2021_7, alt: "이미지7" },
+      { src: year2021_8, alt: "이미지8" },
+      { src: year2021_9, alt: "이미지9" }
+    ],
+  },
+  {
+    title: "2020 Beige",
+    images: [
+      { src: year2020_1, alt: "이미지1" },
+      { src: year2020_2, alt: "이미지2" },
+      { src: year2020_3, alt: "이미지3" },
+      { src: year2020_4, alt: "이미지4" },
+      { src: year2020_5, alt: "이미지5" },
+      { src: year2020_6, alt: "이미지6" },
+      { src: year2020_7, alt: "이미지7" },
+      { src: year2020_8, alt: "이미지8" },
     ],
   },
 ];
