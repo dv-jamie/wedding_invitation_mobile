@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wedding_invitation_mobile/static/css/main.543f138e.css",
-    "main.js": "/wedding_invitation_mobile/static/js/main.f91361ff.js",
+    "main.css": "/wedding_invitation_mobile/static/css/main.f2fa429c.css",
+    "main.js": "/wedding_invitation_mobile/static/js/main.f861d67c.js",
     "static/media/year2022_7.jpg": "/wedding_invitation_mobile/static/media/year2022_7.376cf12bcd2e7eba0b03.jpg",
     "static/media/year2022_9.jpg": "/wedding_invitation_mobile/static/media/year2022_9.a1f7f60d3be9c2fdae3d.jpg",
     "static/media/year2022_10.jpg": "/wedding_invitation_mobile/static/media/year2022_10.532cee5428c5a957f2dc.jpg",
@@ -112,11 +112,11 @@
     "static/media/copy.svg": "/wedding_invitation_mobile/static/media/copy.3c8e81fd1bee9c20ee9c54c52c53ea3c.svg",
     "static/media/mobile.svg": "/wedding_invitation_mobile/static/media/mobile.1a5f2f282517be4c6e0a2785915e9f3e.svg",
     "static/media/kakao.svg": "/wedding_invitation_mobile/static/media/kakao.f4107da3d0c2163615bf7880ab604def.svg",
-    "main.543f138e.css.map": "/wedding_invitation_mobile/static/css/main.543f138e.css.map",
-    "main.f91361ff.js.map": "/wedding_invitation_mobile/static/js/main.f91361ff.js.map"
+    "main.f2fa429c.css.map": "/wedding_invitation_mobile/static/css/main.f2fa429c.css.map",
+    "main.f861d67c.js.map": "/wedding_invitation_mobile/static/js/main.f861d67c.js.map"
   },
   "entrypoints": [
-    "static/css/main.543f138e.css",
-    "static/js/main.f91361ff.js"
+    "static/css/main.f2fa429c.css",
+    "static/js/main.f861d67c.js"
   ]
 }
