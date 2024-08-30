@@ -21,6 +21,8 @@ function Gallery() {
   const [activeImageIndex, setActiveImageIndex] = useState(0);
   const slideContainerRefs = useRef([]);
   const slideRefs = useRef([]);
+  const touchStartX = useRef(0);
+  const touchEndX = useRef(0);
 
   useEffect(() => {
     slideContainerRefs.current[0].classList.add('active')
@@ -39,6 +41,26 @@ function Gallery() {
 
     slideRefs.current[activeSlideIndex]?.scrollTo(0, 0);
     setActiveImageIndex(0);
+  };
+
+  const onTouchStart = (e) => {
+    touchStartX.current = e.touches[0].clientX;
+  };
+
+  const onTouchMove = (e) => {
+    touchEndX.current = e.touches[0].clientX;
+  };
+
+  const onTouchEnd = (index) => {
+    const touchDistance = touchStartX.current - touchEndX.current;
+
+    if (touchDistance > 50) {
+      // 오른쪽으로 슬라이드
+      handleNextSlide(index);
+    } else if (touchDistance < -50) {
+      // 왼쪽으로 슬라이드
+      handlePrevSlide(index);
+    }
   };
   
   const handlePrevSlide = (index) => {
@@ -69,6 +91,9 @@ function Gallery() {
             className={styles.slide_container}
             ref={(el) => (slideContainerRefs.current[index] = el)}
             onClick={(e) => onSlideClick(e, index)}
+            onTouchStart={(e) => onTouchStart(e)}
+            onTouchMove={(e) => onTouchMove(e)}
+            onTouchEnd={() => onTouchEnd(index)}
           >
             <div className={`${styles.slide_title} ${activeSlideIndex === index ? styles.hidden : ''}`}>
               {slide.title}

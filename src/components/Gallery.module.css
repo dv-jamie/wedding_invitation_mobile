@@ -41,6 +41,9 @@
 .slide_container.active::before {
     opacity: 0;
 }
+.slide_container ul {
+    scroll-behavior: smooth;
+}
 
 .slide_title {
     position: absolute;
