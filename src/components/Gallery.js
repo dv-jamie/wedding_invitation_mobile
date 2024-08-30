@@ -44,21 +44,25 @@ function Gallery() {
   };
 
   const onTouchStart = (e) => {
-    touchStartX.current = e.touches[0].clientX;
+    if (activeSlideIndex !== null) {
+      touchStartX.current = e.touches[0].clientX;
+    }
   };
 
   const onTouchMove = (e) => {
-    touchEndX.current = e.touches[0].clientX;
+    if (activeSlideIndex !== null) {
+      touchEndX.current = e.touches[0].clientX;
+    }
   };
 
   const onTouchEnd = (index) => {
+    if (index !== activeSlideIndex) return;
+
     const touchDistance = touchStartX.current - touchEndX.current;
 
     if (touchDistance > 50) {
-      // 오른쪽으로 슬라이드
       handleNextSlide(index);
     } else if (touchDistance < -50) {
-      // 왼쪽으로 슬라이드
       handlePrevSlide(index);
     }
   };
