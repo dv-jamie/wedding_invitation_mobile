@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wedding_invitation_mobile/static/css/main.0b8ed8f9.css",
-    "main.js": "/wedding_invitation_mobile/static/js/main.cf6f9abd.js",
+    "main.css": "/wedding_invitation_mobile/static/css/main.c47e99ed.css",
+    "main.js": "/wedding_invitation_mobile/static/js/main.a071bbef.js",
     "static/media/year2022_7.jpg": "/wedding_invitation_mobile/static/media/year2022_7.376cf12bcd2e7eba0b03.jpg",
     "static/media/year2022_9.jpg": "/wedding_invitation_mobile/static/media/year2022_9.a1f7f60d3be9c2fdae3d.jpg",
     "static/media/year2022_10.jpg": "/wedding_invitation_mobile/static/media/year2022_10.532cee5428c5a957f2dc.jpg",
@@ -28,12 +28,16 @@
     "static/media/gyeongju_5.jpg": "/wedding_invitation_mobile/static/media/gyeongju_5.7ed67e26d531aabd58c0.jpg",
     "static/media/rome_9.jpg": "/wedding_invitation_mobile/static/media/rome_9.c92806c3c984adc6fd59.jpg",
     "static/media/year2021_9.JPG": "/wedding_invitation_mobile/static/media/year2021_9.b4b5248987c8a7fadc05.JPG",
+    "static/media/firenze_10.jpg": "/wedding_invitation_mobile/static/media/firenze_10.a35e4344ea0c25dee716.jpg",
     "static/media/year2021_1.jpg": "/wedding_invitation_mobile/static/media/year2021_1.93c3da1d1798b7eee0d1.jpg",
     "static/media/year2021_8.JPG": "/wedding_invitation_mobile/static/media/year2021_8.3af3406f6c541e8f954e.JPG",
+    "static/media/firenze_6.jpg": "/wedding_invitation_mobile/static/media/firenze_6.94d3f8e1fe4aede83ac6.jpg",
     "static/media/gyeongju_13.jpg": "/wedding_invitation_mobile/static/media/gyeongju_13.a4810b954d9b65ca5ad5.jpg",
     "static/media/rome_18.jpg": "/wedding_invitation_mobile/static/media/rome_18.1fd19ddca2ec8dc6d72f.jpg",
+    "static/media/firenze_7.jpg": "/wedding_invitation_mobile/static/media/firenze_7.e4ffe58ca3f0d7208040.jpg",
     "static/media/rome_6.jpg": "/wedding_invitation_mobile/static/media/rome_6.a75dadf6c9e47d228d23.jpg",
     "static/media/rome_8.jpg": "/wedding_invitation_mobile/static/media/rome_8.c6367e651d38a65d0ebe.jpg",
+    "static/media/firenze_4.jpg": "/wedding_invitation_mobile/static/media/firenze_4.3dc5a3e684eada36dfc0.jpg",
     "static/media/rome_17.jpg": "/wedding_invitation_mobile/static/media/rome_17.a34739661ac50a2f0256.jpg",
     "static/media/rome_19.jpg": "/wedding_invitation_mobile/static/media/rome_19.aac2d91ade354bd6210a.jpg",
     "static/media/paris_2.jpg": "/wedding_invitation_mobile/static/media/paris_2.8c95b89f28c6d895fae7.jpg",
@@ -43,6 +47,7 @@
     "static/media/year2023_8.jpg": "/wedding_invitation_mobile/static/media/year2023_8.75112b8ed2e6b90b1f03.jpg",
     "static/media/gyeongju_11.jpg": "/wedding_invitation_mobile/static/media/gyeongju_11.f83ee6a2a14e7a38777a.jpg",
     "static/media/year2023_5.jpg": "/wedding_invitation_mobile/static/media/year2023_5.2825687e2b34c61b0bb8.jpg",
+    "static/media/firenze_5.jpg": "/wedding_invitation_mobile/static/media/firenze_5.3c1522b948faeb78fc38.jpg",
     "static/media/rome_5.jpg": "/wedding_invitation_mobile/static/media/rome_5.e8865035d9c5bf9c6058.jpg",
     "static/media/year2020_1.jpg": "/wedding_invitation_mobile/static/media/year2020_1.2d746459716011c9d264.jpg",
     "static/media/rome_3.jpg": "/wedding_invitation_mobile/static/media/rome_3.71f2f61607bda3fed1e8.jpg",
@@ -51,14 +56,18 @@
     "static/media/year2023_4.jpg": "/wedding_invitation_mobile/static/media/year2023_4.5869f88bbe347ea3f4d3.jpg",
     "static/media/year2020_2.jpg": "/wedding_invitation_mobile/static/media/year2020_2.0efdadd54091223bef96.jpg",
     "static/media/rome_20.jpg": "/wedding_invitation_mobile/static/media/rome_20.67c105500d5ce6e27392.jpg",
+    "static/media/firenze_3.jpg": "/wedding_invitation_mobile/static/media/firenze_3.01d224d7174719d28467.jpg",
     "static/media/year2023_6.jpg": "/wedding_invitation_mobile/static/media/year2023_6.9963352723398aab9347.jpg",
     "static/media/rome_14.jpg": "/wedding_invitation_mobile/static/media/rome_14.2e81952470c30ee65a4b.jpg",
     "static/media/year2020_5.jpg": "/wedding_invitation_mobile/static/media/year2020_5.fb5e446dd4e5c739bbe2.jpg",
     "static/media/rome_21.jpg": "/wedding_invitation_mobile/static/media/rome_21.c66b1ca8e956d272a520.jpg",
     "static/media/paris_7.jpg": "/wedding_invitation_mobile/static/media/paris_7.5dfe160cad62c0e3e509.jpg",
+    "static/media/firenze_1.jpg": "/wedding_invitation_mobile/static/media/firenze_1.fa1daf15e980aa6d6295.jpg",
     "static/media/rome_2.jpg": "/wedding_invitation_mobile/static/media/rome_2.ac90b79fd175b5e250a9.jpg",
     "static/media/paris_4.jpg": "/wedding_invitation_mobile/static/media/paris_4.6a32c2d3557df9c01499.jpg",
     "static/media/rome_4.jpg": "/wedding_invitation_mobile/static/media/rome_4.1508d0f684a38917b1ce.jpg",
+    "static/media/firenze_8.jpg": "/wedding_invitation_mobile/static/media/firenze_8.c36493f27e0a14c55ffb.jpg",
+    "static/media/firenze_9.jpg": "/wedding_invitation_mobile/static/media/firenze_9.bf1aae87479429f02c70.jpg",
     "static/media/paris_9.jpg": "/wedding_invitation_mobile/static/media/paris_9.e17794fcf616db8ba923.jpg",
     "static/media/year2023_2.jpg": "/wedding_invitation_mobile/static/media/year2023_2.305f07faa93b16f696de.jpg",
     "static/media/year2022_3.jpg": "/wedding_invitation_mobile/static/media/year2022_3.2c413cfe6f282b9598bd.jpg",
@@ -76,6 +85,7 @@
     "static/media/gyeongju_18.jpg": "/wedding_invitation_mobile/static/media/gyeongju_18.2940f7dbcbb036a38bdc.jpg",
     "static/media/year2023_9.jpg": "/wedding_invitation_mobile/static/media/year2023_9.3f9c589c90f1b1305aae.jpg",
     "static/media/rome_11.jpg": "/wedding_invitation_mobile/static/media/rome_11.d7f9c31eedb6bd19078e.jpg",
+    "static/media/firenze_2.jpg": "/wedding_invitation_mobile/static/media/firenze_2.bb620c5c8d6b0e2b511b.jpg",
     "static/media/year2022_2.jpg": "/wedding_invitation_mobile/static/media/year2022_2.44b3ca31b860b4c40dcc.jpg",
     "static/media/rome_1.jpg": "/wedding_invitation_mobile/static/media/rome_1.ec223bb0006a2049b453.jpg",
     "static/media/year2022_8.jpg": "/wedding_invitation_mobile/static/media/year2022_8.81c4d660f9d47e8d5b1f.jpg",
@@ -112,11 +122,12 @@
     "static/media/copy.svg": "/wedding_invitation_mobile/static/media/copy.3c8e81fd1bee9c20ee9c54c52c53ea3c.svg",
     "static/media/mobile.svg": "/wedding_invitation_mobile/static/media/mobile.1a5f2f282517be4c6e0a2785915e9f3e.svg",
     "static/media/kakao.svg": "/wedding_invitation_mobile/static/media/kakao.f4107da3d0c2163615bf7880ab604def.svg",
-    "main.0b8ed8f9.css.map": "/wedding_invitation_mobile/static/css/main.0b8ed8f9.css.map",
-    "main.cf6f9abd.js.map": "/wedding_invitation_mobile/static/js/main.cf6f9abd.js.map"
+    "static/media/align_text.svg": "/wedding_invitation_mobile/static/media/align_text.23091a569d1eb2e39a15f45290d1ebca.svg",
+    "main.c47e99ed.css.map": "/wedding_invitation_mobile/static/css/main.c47e99ed.css.map",
+    "main.a071bbef.js.map": "/wedding_invitation_mobile/static/js/main.a071bbef.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b8ed8f9.css",
-    "static/js/main.cf6f9abd.js"
+    "static/css/main.c47e99ed.css",
+    "static/js/main.a071bbef.js"
   ]
 }
