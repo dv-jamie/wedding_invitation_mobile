@@ -8,19 +8,10 @@ import firenze7 from './firenze_7.jpg';
 import firenze8 from './firenze_8.jpg';
 import firenze9 from './firenze_9.jpg';
 import firenze10 from './firenze_10.jpg';
-// import firenze11 from './firenze_11.jpg';
-// import firenze12 from './firenze_12.jpg';
-// import firenze13 from './firenze_13.jpg';
-// import firenze14 from './firenze_14.jpg';
-// import firenze15 from './firenze_15.jpg';
-// import firenze16 from './firenze_16.jpg';
-// import firenze17 from './firenze_17.jpg';
-// import firenze18 from './firenze_18.jpg';
-// import firenze19 from './firenze_19.jpg';
-import firenze20 from './firenze_20.jpg';
-import firenze21 from './firenze_21.jpg';
-import firenze22 from './firenze_22.jpg';
-import firenze23 from './firenze_23.jpg';
+import firenze11 from './firenze_11.jpg';
+import firenze12 from './firenze_12.jpg';
+import firenze13 from './firenze_13.jpg';
+import firenze14 from './firenze_14.jpg';
 
 import paris1 from './paris_1.jpg';
 import paris2 from './paris_2.jpg';
@@ -116,9 +107,7 @@ import year2020_7 from './year2020_7.jpg';
 import year2020_8 from './year2020_8.jpg';
 
 export {
-  firenze1, firenze2, firenze3, firenze4, firenze5, firenze6, firenze7, firenze8, firenze9, firenze10,
-  // firenze11, firenze12, firenze13, firenze14, firenze15, firenze16, firenze17, firenze18, firenze19,
-  firenze20, firenze21, firenze22, firenze23,
+  firenze1, firenze2, firenze3, firenze4, firenze5, firenze6, firenze7, firenze8, firenze9, firenze10, firenze11, firenze12, firenze13, firenze14,
   paris1, paris2, paris4, paris5, paris6, paris7, paris8, paris9, paris10,
   rome1, rome2, rome3, rome4, rome5, rome6, rome7, rome8, rome9, rome10, rome11, rome12, rome13, rome14, rome15, rome16, rome17, rome18, rome19, rome20, rome21, rome22, rome23,
   year2023_1, year2023_2, year2023_3, year2023_4, year2023_5, year2023_6, year2023_7, year2023_8, year2023_9,
