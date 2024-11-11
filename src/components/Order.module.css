@@ -1,0 +1,41 @@
+.order {
+    padding: 7rem 2.4rem 4rem;
+}
+
+.caption {
+    margin-bottom: 1.8rem;
+}
+.caption span {
+    background: linear-gradient(to right, #ea3937, #6f5e98, #62c377);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.3rem;
+    letter-spacing: 0.4rem;
+}
+
+.table {
+    margin: 0 auto;
+}
+.table li {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem;
+    border-top: 0.1rem dotted #dee2e6;
+}
+.table li:first-of-type {
+    border-top: 0.1rem solid #adb5bd;
+}
+.table li:last-of-type {
+    border-bottom: 0.1rem solid #adb5bd;
+}
+.table span:first-of-type {
+    display: inline-block;
+    width: 14rem;
+    text-align: left;
+    font-size: 1.4rem;
+}
+.table span:last-of-type {
+    text-align: right;
+    font-family: 'pretendard', sans-serif;
+    font-size: 1.3rem;
+}

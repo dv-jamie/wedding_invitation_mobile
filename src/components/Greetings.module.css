@@ -1,0 +1,38 @@
+.greetings {
+    position: relative;
+    padding: 28rem 0 7rem;
+    text-align: center;
+}
+.greetings::before {
+    content: "";
+    position: absolute;
+    top: 10rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    width: 0.1rem;
+    height: 6rem;
+    background: #adb5bd;
+}
+
+.greetings > p {
+    font-size: 1.6rem;
+    line-height: 2.2;
+}
+
+.information {
+    padding: 3.2rem 3.2rem 0;
+}
+.information img {
+    width: 1.4rem;
+}
+.information p,
+.information span {
+    margin-top: 1.2rem;
+    font-family: 'pretendard', sans-serif;
+    font-size: 1.4rem;
+    line-height: 2;
+}
+.information span {
+    font-weight: 600;
+}
