@@ -1,6 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react';
 
 import {
+  firenze1, firenze2, firenze3, firenze4, firenze5, firenze6, firenze7, firenze8, firenze9, firenze10,
+  // firenze11, firenze12, firenze13, firenze14, firenze15, firenze16, firenze17, firenze18, firenze19,
+  firenze20, firenze21, firenze22, firenze23,
   paris1, paris2, paris4, paris5, paris6, paris7, paris8, paris9, paris10,
   rome2, rome5, rome6, rome10, rome12, rome13, rome14, rome15, rome17, rome19, rome22,
   year2023_1, year2023_2, year2023_3, year2023_4, year2023_5, year2023_6, year2023_7, year2023_8, year2023_9,
@@ -144,6 +147,34 @@ function Gallery() {
 }
 
 const imageSlides = [
+  {
+    title: "2024 Firenze",
+    images: [
+      { src: firenze1, alt: "이미지1" },
+      { src: firenze2, alt: "이미지2" },
+      { src: firenze3, alt: "이미지3" },
+      { src: firenze4, alt: "이미지4" },
+      { src: firenze5, alt: "이미지5" },
+      { src: firenze6, alt: "이미지6" },
+      { src: firenze7, alt: "이미지7" },
+      { src: firenze8, alt: "이미지8" },
+      { src: firenze9, alt: "이미지9" },
+      { src: firenze10, alt: "이미지10" },
+      // { src: firenze11, alt: "이미지11" },
+      // { src: firenze12, alt: "이미지12" },
+      // { src: firenze13, alt: "이미지13" },
+      // { src: firenze14, alt: "이미지14" },
+      // { src: firenze15, alt: "이미지15" },
+      // { src: firenze16, alt: "이미지16" },
+      // { src: firenze17, alt: "이미지17" },
+      // { src: firenze18, alt: "이미지18" },
+      // { src: firenze19, alt: "이미지19" },
+      { src: firenze20, alt: "이미지20" },
+      { src: firenze21, alt: "이미지21" },
+      { src: firenze22, alt: "이미지22" },
+      { src: firenze23, alt: "이미지23" },
+    ],
+  },  
   {
     title: "2024 Paris",
     images: [
